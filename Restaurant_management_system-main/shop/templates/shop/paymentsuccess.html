@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteRush - Payment Success</title>
+    <link rel="stylesheet" href="{% static 'css/payment.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="payment-success">
+        <h1>Payment Success</h1>
+        <p>Thank you for your order. Your payment has been successfully processed.</p>
+    </section>
+
+
+
+</body>
+</html>
